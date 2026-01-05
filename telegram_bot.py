@@ -13,8 +13,8 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # Bot Configuration
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"  # Replace with your bot token
-WEB_APP_URL = "http://localhost:5000"  # Replace with your web app URL
+BOT_TOKEN = "AAHr35OWeBfuKdbnSLRq_rqAmKXytns2Z2s"  # Replace with your bot token
+WEB_APP_URL = "http://edu-market.onrender.com"  # Replace with your web app URL
 
 # Conversation states
 LANGUAGE, REGISTER_NAME, REGISTER_PHONE, MAIN_MENU = range(4)
