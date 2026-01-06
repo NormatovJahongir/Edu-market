@@ -3,7 +3,7 @@ from datetime import datetime
 import hashlib
 import os
 
-DATABASE = 'edumarket.db'
+DATABASE =os.environ.get('DATABASE_PATH', 'edumarket.db')
 
 def get_db():
     """Get database connection"""
