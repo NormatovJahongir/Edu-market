@@ -1,0 +1,5 @@
+__pycache__/
+*.pyc
+edumarket.db
+.env
+venv/
